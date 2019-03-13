@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ITP 140 Project</title>
+		<link rel="stylesheet" type="text/css" href="project.css" />
+	</head>
+	<body>
+		<div class="main" id="main">
+			<h3>Welcome to Dangers and Druggies</h3>
+			<p>Set in the mythical land of Definitelynotdetroit, this choice-based adventure game throws you onto the streets of a city teeming with addicts and dealers.<br/>
+			You must use your wits and weapon of choice to survive in this drug-ridden land.<br/>
+			Fight or flight! Decide whether to fight, try to run from, or walk past your opponent. Careful, you may not always be able to leave.<br/>
+			Be warned, your actions have consequences! The choices you make will affect your Danger level. The higher your Danger, the more likely you'll attract unwanted attention from the authorities.
+			If you run out of health, or your Danger level reaches max, you will lose.
+			</p>
+			<br/>
+			<label>Your name:</label>
+			<input type="text" id="name" name="name" size="30" value=""/>
+			<input type="button" value="Enter" id="namebtn"/>
+			<div class="wpn">
+				<h3>Choose your weapon</h3>
+				<div class="wpns">
+					<h3 id="weapon1">&nbsp;</h3>
+					<p>Why are you carrying this around?<br/> Most likely came from your garage. Easy to hide; better than nothing.<br/>+5 Danger<br/>+1 Damage</p>
+					<input type="radio" name="weapon" value="Pipe Wrench" id="wrench">
+				</div>
+				<div class="wpns">
+					<h3 id="weapon2">&nbsp;</h3>
+					<p>Maybe you played Baseball or<br/> Softball at some point. Aluminum material. Used to get a point across.<br/>+15 Danger<br/>+3 Damage</p>
+					<input type="radio" name="weapon" value="Baseball Bat" id="bat">
+				</div>
+				<div class="wpns">
+					<h3 id="weapon3">&nbsp;</h3>
+					<p>Non-specific low-caliber handgun.<br/> You have a concealed carry license. Carrying it helps you feel safer.<br/>+10 Danger<br/>+2 Damage</p>
+					<input type="radio" name="weapon" value="Pistol" id="gun">
+				</div>
+				<div class="wpns">
+					<h3 id="weapon4">&nbsp;</h3>
+					<p>Non-specific AR-15 style rifle. Big, black, loud, and scary. Probably wants to kill children.<br/>+20 Danger<br/>+4 Damage</p>
+					<input type="radio" name="weapon" value="AR-15" id="biggun">
+				</div>
+			</div>
+			<h3>Your name: <span id="plrname">&nbsp;</span></h3>
+			<h3>Your weapon: <span id="plrwpn">&nbsp;</span></h3>
+			<input class="submit" type="button" value="Start" id="submit"/>
+			<p id="resub">&nbsp;</p>
+		</div>
+		<script src="project.js"></script>
+		<script>
+			intro();
+		</script>
+	</body>
+</html>

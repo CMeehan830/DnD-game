@@ -1,0 +1,66 @@
+@charset "utf-8";
+.main {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 70%;
+	margin-top: 50px;
+	border: 1px solid black;
+	padding: 5px;
+	margin-bottom: 50px;
+}
+.wpn {
+
+	width: 100%;
+	float:left;
+	padding: 0px;
+	margin:0px;
+	height: auto;
+}
+.wpns {
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	min-height: 250px;
+	float:left;
+	border: 1px solid black;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.submit {
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.meters {
+	text-align: left;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:auto;
+}
+.enmeters {
+	text-align: right;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: auto;
+}
+.choices {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 150px;
+}
+.log {
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	display: block;
+	width: 75%;
+	height: 200px;
+	overflow-y: auto;
+	
+}
